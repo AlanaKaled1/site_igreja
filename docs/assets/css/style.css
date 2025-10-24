@@ -162,7 +162,14 @@ body {
     width: 52px;
     height: 52px
   }
-  
+ .row .btn {
+    width: 250px;
+  }
+
+}
+
+.card .small {
+  width: 70%;
 }
 
 /* Igreja list */
