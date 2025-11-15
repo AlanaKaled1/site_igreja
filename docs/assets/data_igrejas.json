@@ -1,0 +1,37 @@
+[
+  {
+    "id": 2,
+    "name": "Igreja 2 (Sede)",
+    "instagram": "https://www.instagram.com/assembleiadedeus.ag02?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "leader": "Pr. Geremilson Borges",
+    "photo": "agr_2.png"
+  },
+  {
+    "id": 4,
+    "name": "Igreja 4",
+    "instagram": "https://www.instagram.com/assembleiadedeus.ag04?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "leader": "Pr. Santinho",
+    "photo": "agr_4.png"
+  },
+  {
+    "id": 6,
+    "name": "Igreja 6 (Agrovila 6)",
+    "instagram": "https://www.instagram.com/assembleiadedeus.agrovila06?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "leader": "Pr. Pastor Junior",
+    "photo": "c_senhores.png"
+  },
+  {
+    "id": 8,
+    "name": "Igreja 8",
+    "instagram": "https://www.instagram.com/assembleia_agro08?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "leader": "Pr. Jao Paulo",
+    "photo": "agr_8.png"
+  },
+  {
+    "id": 999,
+    "name": "Assembleia Vila Formoso",
+    "instagram": "https://www.instagram.com/assembleiadedeus_vila_formoso?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "leader": "Pr. Jivaldo",
+    "photo": "vila_formosa.png"
+  }
+]

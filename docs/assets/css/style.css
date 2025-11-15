@@ -1,0 +1,246 @@
+/* style.css - green + gold theme */
+:root {
+  --green: #0b7a57;
+  --green-dark: #075a42;
+  --gold: #c59b2a;
+  --bg: #f7fbf9;
+  --card: #ffffff;
+  --muted: #6b6b6b;
+  --max-width: 1100px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: #0b2f21;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 28px auto;
+  padding: 0 16px;
+}
+
+.header {
+  background: linear-gradient(90deg, var(--green), var(--green-dark));
+  padding-top: 10px;
+  color: white;
+}
+
+.header .brand {
+  display: flex;
+  align-items: center;
+  gap: 14px
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold), #f0d88a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--green-dark)
+}
+
+
+.logo img {
+  border-radius: 50%;
+}
+
+.logo-center img {
+  border-radius: 50%;
+}
+
+.nav {
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+  align-items: center
+}
+
+.nav a {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  font-weight: 600
+}
+
+.navbar-brand {
+  color: var(--bg);
+}
+
+.hero {
+  padding: 28px 0;
+  display: flex;
+  gap: 20px;
+  align-items: center
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(5, 10, 10, 0.06);
+  padding: 16px
+}
+
+.carousel {
+  display: flex;
+  gap: 12px;
+  overflow: hidden;
+  align-items: center;
+  padding: 8px
+}
+
+.carousel .slide {
+  min-width: 220px;
+  max-width: 260px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(11, 122, 87, 0.04), white);
+  box-shadow: 0 4px 12px rgba(5, 10, 10, 0.04)
+}
+
+.carousel img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block
+}
+
+.carousel .meta {
+  padding: 10px
+}
+
+.small {
+  font-size: 0.9rem
+}
+
+.section {
+  margin: 22px 0
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px
+}
+
+.footer {
+  padding: 22px 0;
+  text-align: center;
+  color: var(--bg);
+  background-color: var(--green-dark);
+  font-size: 0.9rem
+}
+
+/* Escola Biblica layout */
+.lesson {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 18px;
+  align-items: start
+}
+
+@media(max-width:880px) {
+  .lesson {
+    grid-template-columns: 1fr
+  }
+
+  .nav {
+    display: none
+  }
+
+  .logo {
+    width: 52px;
+    height: 52px
+  }
+
+  .row .btn {
+    width: 250px;
+  }
+
+}
+
+.card .small {
+  width: 100%;
+}
+
+
+
+/* Igreja list */
+.igreja {
+  display: flex;
+  gap: 12px;
+  align-items: center
+}
+
+.igreja img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--gold)
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  width: 400px;
+}
+
+.btn-igreja {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  width: 200px;
+  border: 2px solid rgba(11, 122, 87, 0.08);
+  color: var(--green-dark);
+  background: transparent
+}
+
+.btn-cta {
+  background: var(--gold);
+  color: var(--green-dark)
+}
+
+.btn-ghost {
+  border: 2px solid rgba(11, 122, 87, 0.08);
+  color: var(--green-dark);
+  background: transparent
+}
+
+/* Small helpers */
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+/* Map */
+.map {
+  border-radius: 12px;
+  overflow: hidden;
+  height: 260px
+}
